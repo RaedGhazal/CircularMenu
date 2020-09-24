@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         circularMenu.setIconsTexts(iconsTexts);
         circularMenu.setTextSize(15);
         circularMenu.setOuterRadius(180);
-        /*circularMenu.setItemCount(6);
+        circularMenu.setItemCount(6);
         circularMenu.setInnerRadius(70);
         circularMenu.setCenterTextSize(17);
         circularMenu.setStrokeWidth(10);
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         circularMenu.setStrokeColor(Color.WHITE);
         circularMenu.setSelectedItemColor(Color.parseColor("#8BC63E"));
         circularMenu.setDefaultItemsColor(Color.parseColor("#E1288F"));
-        circularMenu.setCenterText("Current Balance\nRs. 2000");*/
+        circularMenu.setCenterText("Current Balance\nRs. 2000");
     }
 
 }
