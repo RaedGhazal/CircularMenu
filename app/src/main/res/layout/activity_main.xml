@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.raedghazal.circularmenu.CircularMenu
+        android:id="@+id/c_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:itemCount="7"
+        app:innerRadius="70dp"
+        app:outerRadius="180dp"
+        app:strokeWidth="10dp"
+        app:textSize="15sp"
+        app:centerTextSize="17dp"
+        app:centerText="Current Balance\nRs. 2000"
+        app:strokeColor="#ffffff"
+        app:innerCircleColor="#ffffff"
+        app:centerTextColor="#000000"
+        app:selectedItemColor="#8BC63E"
+        app:defaultItemsColor="#E1288F"
+        />
+</RelativeLayout>
