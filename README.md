@@ -4,8 +4,8 @@ A circular menu custom view in android studio - java, fully customizable in both
 <img src="screenshots/Screenshot_1600950823.png" width="150"> <img src="screenshots/Screenshot_1600950856.png" width="150">
 <img src="screenshots/Screenshot_1600950930.png" width="150"> <img src="screenshots/Screenshot_1600950959.png" width="150">
 
-***properties :  
-  itemCount,  
+ ## properties :  
+  ***itemCount,  
   innerRadius,  
   outerRadius,  
   strokeWidth,  
@@ -26,4 +26,5 @@ A circular menu custom view in android studio - java, fully customizable in both
   
   <img src="screenshots/java.png" width="500">
   
-  **Note** adding texts and icons should be handled in java file.
+  **Note** adding texts and icons should be handled in java file.  
+  **Note** for a better experience call `circularMenu.invalidate()` in `onResume()`.
